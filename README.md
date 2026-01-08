@@ -1,3 +1,27 @@
+# Echo Drift
+
+![preview](media/PingPongPreview.png)
+
+A modern remake of Sega Ping Pong game, with cosmetics system.
+
+## Features
+
+Bonus system
+
+AI logic
+
+Unlockable cosmetics
+
+Bonus enabling/disabling
+
+## Additional info
+
+Unity version - 2022.3.12f1
+
+The game can be played here: https://durman-himself.itch.io/ping-pong-remake
+
+## Copyright
+
 Shield: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
 
 This work is licensed under a
