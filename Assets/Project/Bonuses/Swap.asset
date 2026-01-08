@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4e7e44788dcda44697bf27cd12b4343, type: 3}
+  m_Name: Swap
+  m_EditorClassIdentifier: 
+  BonusName: Swap
+  BonusDesc: Swaps the player scores
+  OnHit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000}
+        m_TargetAssemblyTypeName: Bonus, Assembly-CSharp
+        m_MethodName: BonusSwapScore
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 15
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  SkinPrefab: {fileID: 254068481453857738, guid: c5a9bbcdc0b641c4eb9c9ea755a6267a, type: 3}
+  ActivateSound: {fileID: 8300000, guid: f8f3df196f1119941bcbd130af08045d, type: 3}
+  BallEffect: {fileID: 0}
+  HitBall: {fileID: 0}
