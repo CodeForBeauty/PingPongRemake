@@ -1,4 +1,4 @@
-# Echo Drift
+# Ping Pong Remake
 
 ![preview](media/PingPongPreview.png)
 
